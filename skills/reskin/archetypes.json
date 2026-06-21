@@ -1,0 +1,786 @@
+[
+  {
+    "slug": "swiss-editorial-grid",
+    "name": "Swiss Editorial Grid",
+    "family": "editorial",
+    "video_cut_score": 9,
+    "font_display": "Work Sans (Neue Haas Grotesk substitute)",
+    "font_text": "Inter Tight (Helvetica Neue substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;700;900&family=Inter+Tight:wght@400;500&display=swap",
+    "palette": {
+      "primary": "#000000",
+      "background": "#FFFFFF",
+      "accent": "#E10600"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none",
+    "motion_dna": "Static and disciplined. Content slides into rigid grid cells on scroll using linear or ease-out only. No bounce, no spring, no decorative motion.",
+    "two_sec_hook": "Massive flush-left headline against a sea of white with a single red square. Reads as 'design school' instantly.",
+    "reference_urls": [
+      "https://kosmos.is",
+      "https://werkstatt.studio"
+    ],
+    "anti_rules": [
+      "No gradients of any kind",
+      "No drop shadows",
+      "No emojis",
+      "No more than one accent color"
+    ]
+  },
+  {
+    "slug": "bloomberg-brutalist",
+    "name": "Bloomberg Brutalist",
+    "family": "editorial",
+    "video_cut_score": 9,
+    "font_display": "Oswald (Söhne Breit substitute)",
+    "font_text": "Inter Tight (Söhne substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter+Tight:wght@400;500;700&display=swap",
+    "palette": {
+      "primary": "#000000",
+      "background": "#FFFFFF",
+      "accent": "#0000EE"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — hairline 1px solid borders only",
+    "motion_dna": "Marquee tickers scroll endlessly, hard-cut state changes with no easing, blinking refresh dots on data nodes. Mechanical and information-dense.",
+    "two_sec_hook": "A scrolling stock ticker with hyperlink-blue underlined text and condensed black caps. Looks like a terminal pretending to be a magazine.",
+    "reference_urls": [
+      "https://www.bloomberg.com/businessweek",
+      "https://www.are.na"
+    ],
+    "anti_rules": [
+      "No soft shadows",
+      "No rounded corners ever",
+      "No more than 3 colors",
+      "No decorative imagery"
+    ]
+  },
+  {
+    "slug": "crt-terminal",
+    "name": "CRT Terminal",
+    "family": "technical",
+    "video_cut_score": 10,
+    "font_display": "JetBrains Mono (Berkeley Mono substitute)",
+    "font_text": "JetBrains Mono",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap",
+    "palette": {
+      "primary": "#33FF66",
+      "background": "#0A0A0A",
+      "accent": "#FFB000"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "phosphor glow: 0 0 6px rgba(51,255,102,0.45), plus faint chromatic aberration at edges",
+    "motion_dna": "Blinking block cursor at 1Hz, typed-character reveal at ~30cps, occasional CRT flicker frame, hard-cut state changes with no tweening.",
+    "two_sec_hook": "Green-on-black monospace with a blinking cursor and `>` prompts. Reads as 'hacker' in one frame.",
+    "reference_urls": [
+      "https://www.lowtechmagazine.com",
+      "https://cobalt.run"
+    ],
+    "anti_rules": [
+      "No anti-aliased curves",
+      "No photographs",
+      "No sans-serif body copy",
+      "No modern color gradients"
+    ]
+  },
+  {
+    "slug": "tactile-brutalism",
+    "name": "Tactile Brutalism",
+    "family": "brutalist",
+    "video_cut_score": 8,
+    "font_display": "Oswald (Söhne Breit substitute)",
+    "font_text": "Inter Tight (GT America substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter+Tight:wght@400;500&display=swap",
+    "palette": {
+      "primary": "#111111",
+      "background": "#F2EFE6",
+      "accent": "#A86B2A"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — only 1px solid black borders; textures supply depth, not shadow",
+    "motion_dna": "Hard snap into place, no easing curves, occasional 3-5px micro-jitter on hover that makes elements feel physically struck.",
+    "two_sec_hook": "A real photographed cardboard texture under a stark wireframe grid with chunky condensed type.",
+    "reference_urls": [
+      "https://notbynight.com",
+      "https://www.instrument.com"
+    ],
+    "anti_rules": [
+      "No glassmorphism",
+      "No gradients",
+      "No purple anywhere",
+      "No rounded corners"
+    ]
+  },
+  {
+    "slug": "liquid-glass",
+    "name": "Liquid Glass",
+    "family": "glass",
+    "video_cut_score": 7,
+    "font_display": "Inter Tight (SF Pro Display substitute)",
+    "font_text": "Inter Tight (SF Pro Display substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&display=swap",
+    "palette": {
+      "primary": "#FFFFFF",
+      "background": "#1A0E3A",
+      "accent": "#7CC4FF"
+    },
+    "radii_scale": [16, 24, 999],
+    "shadow_recipe": "soft inner highlight 0 1px 0 rgba(255,255,255,0.35) inset, plus backdrop-filter blur(24px) saturate(180%), with refractive edge lensing",
+    "motion_dna": "Panels physically deform as they're dragged, refract content on parallax, light bends around elements as they scroll. Everything feels squishy and viscous.",
+    "two_sec_hook": "A glass pill button that visibly distorts the colorful image behind it as it moves.",
+    "reference_urls": [
+      "https://www.apple.com/ios/ios-26",
+      "https://www.dia.so"
+    ],
+    "anti_rules": [
+      "No flat fills behind glass",
+      "No monochrome backgrounds",
+      "No hard 1px borders without blur",
+      "No static panels"
+    ]
+  },
+  {
+    "slug": "frutiger-aero-revival",
+    "name": "Frutiger Aero Revival",
+    "family": "y2k-revival",
+    "video_cut_score": 7,
+    "font_display": "Manrope (Frutiger/Myriad substitute)",
+    "font_text": "Manrope (Frutiger/Myriad substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap",
+    "palette": {
+      "primary": "#0B7FB8",
+      "background": "#BCEAF5",
+      "accent": "#9CE56F"
+    },
+    "radii_scale": [12, 24, 999],
+    "shadow_recipe": "glossy plastic: 0 6px 16px rgba(11,127,184,0.35), plus inset 0 1px 0 rgba(255,255,255,0.8) highlight and inset 0 -4px 8px rgba(0,0,0,0.15)",
+    "motion_dna": "Floating bubbles drift across screen, slow lens-flare drift across hero, button shines sweep on hover. Buoyant and tropical.",
+    "two_sec_hook": "A glossy aqua button over a sky-and-leaf photograph with floating bubbles.",
+    "reference_urls": [
+      "https://frutigeraero.org",
+      "https://web.archive.org/web/2008/http://www.microsoft.com/windows/windows-vista"
+    ],
+    "anti_rules": [
+      "No flat design",
+      "No grayscale palettes",
+      "No serif type",
+      "No matte finishes"
+    ]
+  },
+  {
+    "slug": "cute-alism",
+    "name": "Cute-alism (Kawaii Brutalist)",
+    "family": "brutalist",
+    "video_cut_score": 8,
+    "font_display": "Caveat",
+    "font_text": "Courier Prime",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Caveat:wght@400;700&display=swap",
+    "palette": {
+      "primary": "#000000",
+      "background": "#FFF7FB",
+      "accent": "#FF3FAB"
+    },
+    "radii_scale": [0, 4, 24],
+    "shadow_recipe": "hard offset block shadow 4px 4px 0 #000, no blur",
+    "motion_dna": "Wobble loops on stickers (-2deg to 2deg infinite), sparkle bursts on click, sticker rotations, bouncy spring physics on hover.",
+    "two_sec_hook": "Hot pink filled box with black 2px borders and a smiley sticker peeled half off.",
+    "reference_urls": [
+      "https://poolsuite.net",
+      "https://www.are.na/blog"
+    ],
+    "anti_rules": [
+      "No corporate sans",
+      "No muted palettes",
+      "No tasteful neutrals",
+      "No subtle drop shadows"
+    ]
+  },
+  {
+    "slug": "risograph-zine",
+    "name": "Risograph Zine",
+    "family": "print",
+    "video_cut_score": 9,
+    "font_display": "Fraunces (PP Editorial New substitute)",
+    "font_text": "DM Sans (Cabinet Grotesk substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@400;500;700&display=swap",
+    "palette": {
+      "primary": "#FF48B0",
+      "background": "#F4EFE2",
+      "accent": "#1FB6E0"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — depth comes from ink misregistration and halftone dot fills",
+    "motion_dna": "Imperceptible motion. Maybe a single layer-slip on scroll where one ink shifts 4px against the other. Print-still energy.",
+    "two_sec_hook": "Two saturated inks slightly misaligned creating a third color where they overlap, on cream paper.",
+    "reference_urls": [
+      "https://risologyclub.com",
+      "https://www.itsnicethat.com"
+    ],
+    "anti_rules": [
+      "No crisp vectors",
+      "No more than 3 inks",
+      "No drop shadows",
+      "No anti-aliased smoothness"
+    ]
+  },
+  {
+    "slug": "newsprint-broadsheet",
+    "name": "Newsprint Broadsheet",
+    "family": "editorial",
+    "video_cut_score": 8,
+    "font_display": "Newsreader (Domaine Display substitute)",
+    "font_text": "Cormorant (Tiempos substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400&family=Cormorant:wght@400;500;700&display=swap",
+    "palette": {
+      "primary": "#111111",
+      "background": "#F6F2E7",
+      "accent": "#7A0A0A"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — hairline dividers 1px #111 only",
+    "motion_dna": "Almost no motion. Page-turn-style transitions between sections; copy holds still like a printed page.",
+    "two_sec_hook": "Three columns of justified serif body with a massive serif headline and a halftoned photo.",
+    "reference_urls": [
+      "https://www.nytimes.com/section/magazine",
+      "https://dirt.fyi"
+    ],
+    "anti_rules": [
+      "No sans-serif headlines",
+      "No card-based layout",
+      "No gradients",
+      "No modern web color"
+    ]
+  },
+  {
+    "slug": "sports-almanac",
+    "name": "Sports Almanac",
+    "family": "data-dense",
+    "video_cut_score": 8,
+    "font_display": "Bebas Neue (Sporting Grotesque substitute)",
+    "font_text": "JetBrains Mono",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&family=JetBrains+Mono:wght@400;500;700&display=swap",
+    "palette": {
+      "primary": "#0A2342",
+      "background": "#F4F1EA",
+      "accent": "#C8102E"
+    },
+    "radii_scale": [0, 2, 4],
+    "shadow_recipe": "none — depth comes from card-frame borders and team color blocks",
+    "motion_dna": "Stat counters tick up like an odometer, cards flip horizontally to reveal back-of-card data, hover reveals row highlight band.",
+    "two_sec_hook": "A grid of tightly-packed numbers in mono with team color headers and a player photo cutout.",
+    "reference_urls": [
+      "https://www.baseball-reference.com",
+      "https://fbref.com"
+    ],
+    "anti_rules": [
+      "No proportional figures in tables",
+      "No rounded card corners",
+      "No motion blur on numbers",
+      "No emoji"
+    ]
+  },
+  {
+    "slug": "architectural-blueprint",
+    "name": "Architectural Blueprint",
+    "family": "technical",
+    "video_cut_score": 8,
+    "font_display": "Inter Tight",
+    "font_text": "JetBrains Mono",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
+    "palette": {
+      "primary": "#FFFFFF",
+      "background": "#001F4A",
+      "accent": "#7CD8FF"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — only 1px construction grid and dimension lines with tick marks",
+    "motion_dna": "SVG strokes draw on stroke-by-stroke via stroke-dashoffset, dimension callouts pop in only after their lines complete, iso projections rotate slowly.",
+    "two_sec_hook": "White lines drawing themselves on a deep navy field with dimension callouts.",
+    "reference_urls": [
+      "https://stripe.com/sessions",
+      "https://factorio.com"
+    ],
+    "anti_rules": [
+      "No filled illustrations",
+      "No photographic imagery",
+      "No warm colors",
+      "No bezier-curve flourishes"
+    ]
+  },
+  {
+    "slug": "ascii-art-revival",
+    "name": "ASCII Art Revival",
+    "family": "technical",
+    "video_cut_score": 9,
+    "font_display": "JetBrains Mono",
+    "font_text": "JetBrains Mono",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap",
+    "palette": {
+      "primary": "#FFFFFF",
+      "background": "#0A0A0A",
+      "accent": "#FFB000"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — composition emerges entirely from character density and unicode block shading (▓▒░█)",
+    "motion_dna": "Character-by-character reveal at 60cps, scanline roll travels down the composition once per few seconds, no easing between frames.",
+    "two_sec_hook": "A recognizable logo or face rendered entirely in slashes and pipes.",
+    "reference_urls": [
+      "http://www.textfiles.com",
+      "https://p01.org"
+    ],
+    "anti_rules": [
+      "No raster images",
+      "No anti-aliasing",
+      "No proportional fonts",
+      "No color gradients"
+    ]
+  },
+  {
+    "slug": "notebook-sketch",
+    "name": "Notebook Sketch (FigJam-core)",
+    "family": "hand-drawn",
+    "video_cut_score": 7,
+    "font_display": "Caveat",
+    "font_text": "Architects Daughter",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Architects+Daughter&display=swap",
+    "palette": {
+      "primary": "#1F1F1F",
+      "background": "#FAF7EC",
+      "accent": "#FFD23F"
+    },
+    "radii_scale": [4, 8, 14],
+    "shadow_recipe": "sticky-note shadow: 2px 3px 0 rgba(0,0,0,0.12), slight per-element rotation (-3deg to 3deg)",
+    "motion_dna": "Spring-y drag with overshoot, jittery hand-drawn line draw-in that wobbles, sticker peel reveals where corners lift.",
+    "two_sec_hook": "A wobbly hand-drawn arrow connecting two skewed sticky notes on graph paper.",
+    "reference_urls": [
+      "https://www.figma.com/figjam",
+      "https://excalidraw.com"
+    ],
+    "anti_rules": [
+      "No straight 1px lines",
+      "No corporate sans",
+      "No real photography",
+      "No perfect geometry"
+    ]
+  },
+  {
+    "slug": "acid-graphics",
+    "name": "Acid Graphics",
+    "family": "maximalist",
+    "video_cut_score": 9,
+    "font_display": "Fraunces Italic (Migra Italic / Mori substitute)",
+    "font_text": "DM Sans",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,700;1,900&family=DM+Sans:wght@400;700&display=swap",
+    "palette": {
+      "primary": "#C6FF00",
+      "background": "#0A0A0A",
+      "accent": "#FF00C8"
+    },
+    "radii_scale": [0, 999, 999],
+    "shadow_recipe": "chrome-melt glow: 0 0 24px rgba(198,255,0,0.55), plus warped/skewed inner highlight",
+    "motion_dna": "Warp distortion on hover, type morphs and melts like liquid mercury, hue rotation cycles on backgrounds.",
+    "two_sec_hook": "Liquid-chrome type melting against a neon op-art swirl with a single yellow smiley.",
+    "reference_urls": [
+      "https://pangrampangram.com",
+      "https://locomotive.ca"
+    ],
+    "anti_rules": [
+      "No muted colors",
+      "No standard kerning",
+      "No serif body type",
+      "No tasteful restraint"
+    ]
+  },
+  {
+    "slug": "bauhaus-geometric",
+    "name": "Bauhaus Geometric",
+    "family": "geometric",
+    "video_cut_score": 8,
+    "font_display": "Jost (Futura substitute)",
+    "font_text": "Jost (Futura substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap",
+    "palette": {
+      "primary": "#E63946",
+      "background": "#F4F1EA",
+      "accent": "#1D4ED8"
+    },
+    "radii_scale": [0, 999, 999],
+    "shadow_recipe": "none — overlap relies on flat color, no blending modes",
+    "motion_dna": "Shapes assemble like a Kandinsky composition, primitives rotate around their own axes at constant speed, no overlap blending.",
+    "two_sec_hook": "A giant red circle, yellow triangle, and blue square arranged with thick black bars across the screen.",
+    "reference_urls": [
+      "https://www.kunstmuseumbasel.ch",
+      "https://www.bauhaus-movement.com"
+    ],
+    "anti_rules": [
+      "No gradients",
+      "No secondary or tertiary colors",
+      "No photographic content",
+      "No decorative typography"
+    ]
+  },
+  {
+    "slug": "tarot-mystical",
+    "name": "Tarot Mystical",
+    "family": "ornamental",
+    "video_cut_score": 8,
+    "font_display": "Cormorant Garamond",
+    "font_text": "Cardo",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,400&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap",
+    "palette": {
+      "primary": "#E8C36B",
+      "background": "#1A1240",
+      "accent": "#7A1F2B"
+    },
+    "radii_scale": [0, 4, 8],
+    "shadow_recipe": "soft candle-flicker glow 0 0 24px rgba(232,195,107,0.25), plus gilded gold linework borders",
+    "motion_dna": "Slow gold-shimmer drift across surfaces, tarot cards flip with mirrored content on back, candle-flicker lighting pulses every 3-4s.",
+    "two_sec_hook": "A gold-bordered tarot card flipping over a midnight-indigo sky of stars.",
+    "reference_urls": [
+      "https://labyrinthos.co",
+      "https://www.costarastrology.com"
+    ],
+    "anti_rules": [
+      "No sans-serif",
+      "No bright or saturated daylight palettes",
+      "No flat illustrations",
+      "No modern grotesk type"
+    ]
+  },
+  {
+    "slug": "photographic-editorial-film-grain",
+    "name": "Photographic Editorial (Film Grain)",
+    "family": "photographic",
+    "video_cut_score": 7,
+    "font_display": "Cormorant (GT Sectra substitute)",
+    "font_text": "JetBrains Mono",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400&display=swap",
+    "palette": {
+      "primary": "#F2EDE4",
+      "background": "#0E0E0E",
+      "accent": "#D9A85A"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "film grain noise overlay at 8% opacity, no UI shadows over photography",
+    "motion_dna": "Slow Ken Burns pans on full-bleed photos, very long crossfades (1.5s+) between images, photo-to-photo with film-leader transitions.",
+    "two_sec_hook": "A grainy film photo at full bleed with a tiny serif caption in the corner.",
+    "reference_urls": [
+      "https://rivers.run",
+      "https://the-fence.com"
+    ],
+    "anti_rules": [
+      "No stock imagery",
+      "No UI chrome over the photos",
+      "No fast cuts",
+      "No clipart"
+    ]
+  },
+  {
+    "slug": "skeuomorphic-revival",
+    "name": "Skeuomorphic Revival",
+    "family": "tactile",
+    "video_cut_score": 6,
+    "font_display": "Manrope (Avenir substitute)",
+    "font_text": "Manrope (Avenir substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap",
+    "palette": {
+      "primary": "#6B4423",
+      "background": "#E8DCC4",
+      "accent": "#B08D57"
+    },
+    "radii_scale": [6, 12, 24],
+    "shadow_recipe": "inset 0 1px 0 rgba(255,255,255,0.5), inset 0 -2px 4px rgba(0,0,0,0.2), plus 0 4px 8px rgba(0,0,0,0.25) outer drop and specular highlights across metals",
+    "motion_dna": "Physical inertia on knobs that spin with momentum and friction, switches click with mechanical snap, levers swing with weighted gravity.",
+    "two_sec_hook": "A brass dial with light raking across it, sitting on a leather background.",
+    "reference_urls": [
+      "https://folkapp.com",
+      "https://honesttools.app"
+    ],
+    "anti_rules": [
+      "No flat icons",
+      "No abstract metaphors",
+      "No grayscale",
+      "No pure CSS gradients standing in for material"
+    ]
+  },
+  {
+    "slug": "vaporwave-y2k",
+    "name": "Vaporwave Y2K",
+    "family": "y2k-revival",
+    "video_cut_score": 8,
+    "font_display": "Tinos (Times New Roman substitute)",
+    "font_text": "Tinos (Times New Roman substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&display=swap",
+    "palette": {
+      "primary": "#FF6EC7",
+      "background": "#1A0F3D",
+      "accent": "#00E0FF"
+    },
+    "radii_scale": [0, 2, 8],
+    "shadow_recipe": "chrome bevel: inset 0 1px 0 #fff, inset 0 -2px 4px rgba(0,0,0,0.5), plus JPEG artifact noise at compression boundaries",
+    "motion_dna": "Slow chrome-text spin like a 90s MTV bumper, drifting parallax of MIDI-era 3D objects, Windows boot-chime audio cues.",
+    "two_sec_hook": "Chrome italic wordmark over a sunset-grid horizon with a marble Roman bust.",
+    "reference_urls": [
+      "https://poolsuite.net",
+      "https://palmgardens.online"
+    ],
+    "anti_rules": [
+      "No modern sans",
+      "No flat color blocks",
+      "No ironic distance — take it past camp into earnest",
+      "No 4K crispness"
+    ]
+  },
+  {
+    "slug": "notion-sketched",
+    "name": "Notion Sketched (Soft Productivity)",
+    "family": "productivity",
+    "video_cut_score": 4,
+    "font_display": "Inter Tight",
+    "font_text": "Inter Tight",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap",
+    "palette": {
+      "primary": "#37352F",
+      "background": "#FAFAF7",
+      "accent": "#E8B4A0"
+    },
+    "radii_scale": [4, 6, 10],
+    "shadow_recipe": "subtle 0 1px 2px rgba(15,15,15,0.06) on cards, scanned-paper texture layered below to break the slop",
+    "motion_dna": "Smooth toggle expand (200ms ease-out), gentle hover lift translateY -1px, no spring physics. Calm and clerical.",
+    "two_sec_hook": "A nested checkbox list with emoji bullets on cream paper-color background.",
+    "reference_urls": [
+      "https://www.notion.so",
+      "https://linear.app/changelog"
+    ],
+    "anti_rules": [
+      "Inter Tight only acceptable if backed by scanned-paper texture — otherwise becomes slop",
+      "No purple gradients",
+      "No generic card grids without a twist",
+      "No emoji-only navigation"
+    ]
+  },
+  {
+    "slug": "surveillance-dossier",
+    "name": "Surveillance Dossier",
+    "family": "ornamental",
+    "video_cut_score": 9,
+    "font_display": "Special Elite (American Typewriter substitute)",
+    "font_text": "Courier Prime",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap",
+    "palette": {
+      "primary": "#1A1A1A",
+      "background": "#D8C28C",
+      "accent": "#A41E22"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "paper-clip shadow 2px 3px 4px rgba(0,0,0,0.25), document-scan grain overlay, stamp impressions land with slight blur",
+    "motion_dna": "Documents shuffle and overlap like a deck of files, redaction bars wipe in left-to-right, stamp impressions land with a heavy thump and rotation jitter.",
+    "two_sec_hook": "A manila document with black redaction bars and a red CLASSIFIED stamp at an angle.",
+    "reference_urls": [
+      "https://wikileaks.org",
+      "https://distrokid.com"
+    ],
+    "anti_rules": [
+      "No clean modern sans",
+      "No bright color outside the red stamp",
+      "No flat vector icons",
+      "No crisp anti-aliased edges"
+    ]
+  },
+  {
+    "slug": "acid-editorial",
+    "name": "Acid Editorial (post-Pangram)",
+    "family": "editorial",
+    "video_cut_score": 8,
+    "font_display": "Fraunces (PP Editorial New substitute)",
+    "font_text": "Inter Tight (PP Neue Montreal substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,500;1,700&family=Inter+Tight:wght@400;500;700&display=swap",
+    "palette": {
+      "primary": "#0F0F0F",
+      "background": "#F4F1E8",
+      "accent": "#D7FF3A"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — only full-bleed hairline rule lines at 1px",
+    "motion_dna": "Slow horizontal type marquees roll endlessly, italic skew tied to scroll velocity so type leans into the read, copy reflows on velocity changes.",
+    "two_sec_hook": "Massive italic display serif 'Editorial' word filling the screen with one tiny chartreuse paragraph below.",
+    "reference_urls": [
+      "https://pangrampangram.com",
+      "https://locomotive.ca"
+    ],
+    "anti_rules": [
+      "No system fonts",
+      "No card-based layout",
+      "No more than two type families",
+      "No safe pastels"
+    ]
+  },
+  {
+    "slug": "tech-bro-console",
+    "name": "Tech-Bro Console (Vercel-noir)",
+    "family": "technical",
+    "video_cut_score": 7,
+    "font_display": "JetBrains Mono (Geist Mono substitute)",
+    "font_text": "Inter Tight",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@400;500;600&display=swap",
+    "palette": {
+      "primary": "#FFFFFF",
+      "background": "#000000",
+      "accent": "#C6FF00"
+    },
+    "radii_scale": [4, 8, 12],
+    "shadow_recipe": "subtle radial gradient halos behind hero, 1px hairline borders #1F1F1F, cursor-tracking spotlight at 0 0 240px rgba(198,255,0,0.12)",
+    "motion_dna": "Cursor-tracking spotlight gradient follows the mouse, terminal command typing demos auto-play, state changes are instant with no easing.",
+    "two_sec_hook": "Black screen with a hairline grid, a single chartreuse `npm install` line, and a radial spotlight under the cursor.",
+    "reference_urls": [
+      "https://vercel.com",
+      "https://resend.com"
+    ],
+    "anti_rules": [
+      "No warm colors",
+      "No serifs",
+      "No images of humans",
+      "No skeuomorphic depth"
+    ]
+  },
+  {
+    "slug": "pixel-art-bitmap",
+    "name": "Pixel Art / Bitmap",
+    "family": "pixel",
+    "video_cut_score": 9,
+    "font_display": "Press Start 2P",
+    "font_text": "JetBrains Mono (Departure Mono substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;500;700&display=swap",
+    "palette": {
+      "primary": "#FFCC00",
+      "background": "#1D2B53",
+      "accent": "#FF004D"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — only 1px hard pixel-step shadow blocks; image-rendering: pixelated everywhere",
+    "motion_dna": "Frame-by-frame sprite animation at 8-12fps, no easing or tweening, dithered transitions between scenes.",
+    "two_sec_hook": "A chunky 8-bit character sprite walking across a tiled-background scene at integer pixels.",
+    "reference_urls": [
+      "https://itch.io",
+      "https://www.pico-8.com"
+    ],
+    "anti_rules": [
+      "No anti-aliasing",
+      "No vector type at small sizes",
+      "No 3D shading",
+      "No smooth gradients"
+    ]
+  },
+  {
+    "slug": "maximalist-collage",
+    "name": "Maximalist Collage (Post-Internet)",
+    "family": "maximalist",
+    "video_cut_score": 8,
+    "font_display": "Fraunces",
+    "font_text": "DM Sans",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,700&family=DM+Sans:wght@400;700&family=Caveat:wght@500&family=Special+Elite&family=Press+Start+2P&display=swap",
+    "palette": {
+      "primary": "#1A1A1A",
+      "background": "#F0E8D6",
+      "accent": "#FF3D7F"
+    },
+    "radii_scale": [0, 4, 16],
+    "shadow_recipe": "drop-shadowed cutouts 3px 4px 6px rgba(0,0,0,0.25), washi-tape borders with random rotations -8deg to 8deg, screenshot-of-screenshot textures",
+    "motion_dna": "Sticker-drag rearrangement, parallax on every layer at different rates, jiggle on hover that makes pieces feel taped on.",
+    "two_sec_hook": "A dozen overlapping cutout images, stamps, and washi-tape strips at random angles.",
+    "reference_urls": [
+      "https://www.are.na",
+      "https://www.itsnicethat.com"
+    ],
+    "anti_rules": [
+      "No grid alignment",
+      "No single type family",
+      "No solid backgrounds",
+      "No restraint"
+    ]
+  },
+  {
+    "slug": "cinema-letterbox",
+    "name": "Cinema Letterbox",
+    "family": "photographic",
+    "video_cut_score": 8,
+    "font_display": "Cormorant SC (Trajan substitute)",
+    "font_text": "Courier Prime",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500;700&family=Courier+Prime:wght@400;700&display=swap",
+    "palette": {
+      "primary": "#F0E0B0",
+      "background": "#000000",
+      "accent": "#7A2A1A"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — depth comes from letterbox bars at 2.39:1 and long crossfades",
+    "motion_dna": "Slow dolly-style camera pushes into hero copy, credits roll vertically, dissolves between scenes at 2s+ crossfade. Patient and cinematic.",
+    "two_sec_hook": "Massive Trajan all-caps title appearing between two black letterbox bars.",
+    "reference_urls": [
+      "https://a24films.com",
+      "https://www.oscars.org"
+    ],
+    "anti_rules": [
+      "No 16:9 aspect",
+      "No sans-serif body",
+      "No quick cuts",
+      "No bright daytime palettes"
+    ]
+  },
+  {
+    "slug": "geocities-formal",
+    "name": "Geocities Formal (Hand-Coded Personal Site)",
+    "family": "archaeological",
+    "video_cut_score": 9,
+    "font_display": "Tinos (Times New Roman substitute)",
+    "font_text": "Source Serif Pro (Georgia substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400&display=swap",
+    "palette": {
+      "primary": "#000080",
+      "background": "#C0C0C0",
+      "accent": "#FF00FF"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — JPEG photos with 1px solid borders, tiled background image visible behind",
+    "motion_dna": "Animated GIF mascots loop forever, marquee text scrolls left, blink-tag simulation flashes link text at 1Hz, guestbook scrolls vertically.",
+    "two_sec_hook": "Times New Roman body text with default-blue underlined links over a tiled stars background.",
+    "reference_urls": [
+      "https://djb.dk",
+      "https://justinehsmith.substack.com"
+    ],
+    "anti_rules": [
+      "No CSS resets",
+      "No grid systems",
+      "No webfonts that postdate 2001",
+      "No anti-aliasing on JPEGs"
+    ]
+  },
+  {
+    "slug": "architectural-mono-color",
+    "name": "Architectural Mono-Color (Single-Hue Saturation)",
+    "family": "photographic",
+    "video_cut_score": 8,
+    "font_display": "Fraunces (PP Editorial New substitute)",
+    "font_text": "Inter Tight (Söhne substitute)",
+    "font_import_url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,500&family=Inter+Tight:wght@400;500;600&display=swap",
+    "palette": {
+      "primary": "#FFFFFF",
+      "background": "#E25822",
+      "accent": "#FFFFFF"
+    },
+    "radii_scale": [0, 0, 0],
+    "shadow_recipe": "none — hairline 1px white rules only; duotoned photography supplies all visual weight",
+    "motion_dna": "Hue shifts subtly with scroll position (drifting saturation), duotoned photos crossfade between variants of the same hue.",
+    "two_sec_hook": "Entire frame in one saturated hue with white hairline type and a duotoned face photo.",
+    "reference_urls": [
+      "https://www.olafureliasson.net",
+      "https://mschf.com"
+    ],
+    "anti_rules": [
+      "No second accent color",
+      "No grayscale fallbacks",
+      "No multicolor imagery",
+      "No black backgrounds"
+    ]
+  }
+]

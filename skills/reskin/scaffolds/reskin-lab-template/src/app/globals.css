@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Intentionally NO default font, NO indigo, NO rounded utilities pre-applied. */
+/* Each concept brings its own. */
+
+body {
+  margin: 0;
+}
