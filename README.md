@@ -26,6 +26,7 @@ I don't use one model for everything. I use the right tool for each step.
 | Audit the code as a hostile reviewer | Codex (OpenAI) | a second, independent model catches what the author stopped seeing |
 | Fan out independent work in parallel | multi-agent workflows ("ultracode") | many agents, deterministic orchestration |
 | Inherit or resume a messy project | `project-audit` skill | re-derive ground truth from the code, not from stale docs |
+| Take a half-baked project the last mile and ship it | `finish` skill | decides the done-bar by audience tier, then does the work, with a privacy gate before anything public |
 | Hand off across sessions or models | `handoff` skill | carry state forward, not the whole transcript |
 
 The longer version is in [docs/operating-manual.md](docs/operating-manual.md).
