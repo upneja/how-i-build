@@ -59,10 +59,14 @@ Everything here installs into Claude Code. Each skill is a folder with a `SKILL.
 - **readable-brief**: turns a pile of findings into one self-contained HTML page that is the argument, instead of a folder of markdown you have to assemble in your head.
 - **finish**: takes a half-baked project and finalizes it to the right bar for its audience (solo, friends, or public), then ships it, with a privacy gate before anything goes public.
 - **ship**: an end-of-feature checklist. Push, verify the deploy actually went live, update your registry, log the decision.
+- **project-to-reel**: turns a shipped project into a full talking-head video brief (script at three lengths, hooks, shot plan, per-platform captions, editor handoff). The pipeline ships here; the content strategy that makes it good is yours to supply.
 
 **Workflow**
 
 - **goal**: a persistent, long-running objective that survives across sessions, inspired by Codex's `/goal`.
+- **ralph**: launches an autonomous Ralph Wiggum loop. Defines the task and its done-criteria, writes `RALPH.md`, and runs it in the background until the criteria pass.
+- **git-push**: a session-wrap that updates a multi-project registry and dossier so a dashboard stays current. Pairs with `handoff` (handoff resumes one project; this keeps the whole board honest).
+- **digest**: surfaces the outward and irreversible actions a session took (publish, deploy, spend, send), and texts or emails you when something critical happens in a long run.
 - **inventory**: lists every skill, command, subagent, and hook in your setup, so you remember what you have.
 
 ## Install
@@ -98,6 +102,7 @@ The skills in this repo are mine. The tools they run on are not, and they deserv
 - **Codex** is OpenAI's CLI, which I use as an independent, adversarial code reviewer.
 - **Looper** is Kevin Simback's loop-design skill ([@KSimback](https://x.com/KSimback)). I run it before a long `/goal` to design the loop, its rubric, and its budget first.
 - **`/loop` and `/schedule`** are Claude Code built-ins, for recurring and self-paced runs.
+- The **Ralph Wiggum** loop technique is Geoff Huntley's ([ghuntley.com/ralph](https://ghuntley.com/ralph/)). My `ralph` skill is a thin launcher for it.
 
 More detail, and links, in [docs/stack-and-credits.md](docs/stack-and-credits.md).
 
