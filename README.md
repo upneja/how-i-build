@@ -22,6 +22,7 @@ I don't use one model for everything. I use the right tool for each step.
 |---|---|---|
 | Think through an ambiguous, high-stakes question | `deep-research` skill | multi-agent adversarial analysis instead of one confident guess |
 | Pressure-test a plan before building | `steelman` skill | find the fatal flaw cheaply, while it's still just a plan |
+| Design the loop before a long autonomous run | Looper (Kevin Simback) + `/loop`, `/goal` | spec the harness, rubric, and token budget so a bad loop doesn't burn tokens on slop |
 | Design, plan, and write the code | Claude Code | best at holding a codebase in context and writing to match it |
 | Audit the code as a hostile reviewer | Codex (OpenAI) | a second, independent model catches what the author stopped seeing |
 | Fan out independent work in parallel | multi-agent workflows ("ultracode") | many agents, deterministic orchestration |
@@ -56,6 +57,7 @@ Everything here installs into Claude Code. Each skill is a folder with a `SKILL.
 - **reskin**: generates 10 very different, anti-generic visual reskins of a Next.js app, each committed to a distinct design archetype, so you can pick a direction fast.
 - **frontend-ux-upgrader**: a subagent that audits and upgrades the look and feel of a frontend.
 - **readable-brief**: turns a pile of findings into one self-contained HTML page that is the argument, instead of a folder of markdown you have to assemble in your head.
+- **finish**: takes a half-baked project and finalizes it to the right bar for its audience (solo, friends, or public), then ships it, with a privacy gate before anything goes public.
 - **ship**: an end-of-feature checklist. Push, verify the deploy actually went live, update your registry, log the decision.
 
 **Workflow**
@@ -94,6 +96,8 @@ The skills in this repo are mine. The tools they run on are not, and they deserv
 - **Claude Code** and its multi-agent workflows (what I call "ultracode" here) are Anthropic's.
 - **superpowers** is a third-party plugin that provides the skills framework plus disciplines I rely on constantly: brainstorming, test-driven development, systematic debugging.
 - **Codex** is OpenAI's CLI, which I use as an independent, adversarial code reviewer.
+- **Looper** is Kevin Simback's loop-design skill ([@KSimback](https://x.com/KSimback)). I run it before a long `/goal` to design the loop, its rubric, and its budget first.
+- **`/loop` and `/schedule`** are Claude Code built-ins, for recurring and self-paced runs.
 
 More detail, and links, in [docs/stack-and-credits.md](docs/stack-and-credits.md).
 
